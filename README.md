@@ -39,7 +39,7 @@ SELECT * FROM information_schema.table_privileges;
 This query is designed to select information about column-specific privileges for roles and users that are available or granted by the currently enabled roles.
 
 ```SQL
-SELECT * FROM information_schema.table_privileges;
+SELECT * FROM information_schema.column_privileges;
 ```
 
 ## MySQL Role Assignments
