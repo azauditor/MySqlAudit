@@ -63,5 +63,5 @@ SELECT * FROM information_schema.role_table_grants;
 This query is designed to select all system variables from the validate_password component.
 
 ```SQL
-SHOW VARIABLES LIKE 'validate_password%';
+SHOW VARIABLES LIKE '%password%';
 ```
